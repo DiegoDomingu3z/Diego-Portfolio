@@ -14,9 +14,10 @@
           data-loop="20"
           style="color: blue !important"
         ></span>
+        &nbsp;
       </h1>
 
-      <p class="hero-des info">
+      <p class="hero-des fs-5">
         I am a <b>Full-Stack Software Developer,</b> I create elegant and
         functional <b>Websites.</b>
         Feel free to contact me below!
@@ -24,7 +25,7 @@
 
       <button class="contact-btn animated bounce delay-4s button">
         <router-link :to="{ name: 'Contact' }"
-          ><span class="text-black">Contact Me</span></router-link
+          ><span class="text-white">Contact Me</span></router-link
         >
       </button>
 
@@ -155,14 +156,15 @@ export default {
 .hero-des {
   padding-right: 60px;
   text-align: justify;
-  /* font-weight: 800; */
-  letter-spacing: 1.2;
+  letter-spacing: 1.4;
+  font-family: "Poppins", sans-serif;
+  color: #444;
 }
 
 .contact-btn {
   padding: 5px 10px;
-  color: var(--light-text-color);
-  background: none;
+
+  background: #444;
   border: 2.3px solid #444;
   transition: all 1s;
 }
