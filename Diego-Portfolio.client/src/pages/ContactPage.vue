@@ -1,5 +1,5 @@
-<template >
-  <Main />
+<template>
+  <div>this working up</div>
 </template>
 
 
