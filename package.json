@@ -1,0 +1,16 @@
+
+  {
+    "name": "diego-portfolio",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd Diego-Portfolio.client && npm i",
+      "setup:server": "cd Diego-Portfolio && npm i",
+      "start": "node Diego-Portfolio/index.js"
+    },
+    "engines": {
+      "node": "^14.17.0"
+    }
+  }
+  
