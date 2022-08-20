@@ -28,25 +28,6 @@
           ><span class="text-white">Contact Me</span></router-link
         >
       </button>
-
-      <div class="social-icons">
-        <a target="_blank" href="mailto:diegodominguezf40@gmail.com"
-          ><i class="fas fa-envelope"></i
-        ></a>
-        <a
-          target="_blank"
-          href="https://www.instagram.com/di3godominguez/?hl=en"
-          ><i class="fab fa-instagram"></i
-        ></a>
-        <a target="_blank" href="https://github.com/DiegoDomingu3z"
-          ><i class="fab fa-github"></i
-        ></a>
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/in/diego-dominguez-b03344233"
-          ><i class="fab fa-linkedin"></i
-        ></a>
-      </div>
     </div>
 
     <div class="col-md-6 text-center pic" id="hero-right">

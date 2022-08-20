@@ -26,12 +26,8 @@
         <div class="col-md-6 col-sm-12">
           <div class="work-des">
             <h1>Keepr</h1>
-            <center>
-              <div class="project-star-mobile animated zoomIn delay-2s">
-                <i class="fas fa-trophy"></i> <b>5 Million+</b> Downloads
-              </div>
-            </center>
-            <p>
+            <center></center>
+            <p class="info">
               Keepr was designed for users to have a platform to share their
               keeps "pictures" across the applications with other users. The
               application allows users to create albums "vaults" and insert all
@@ -53,10 +49,9 @@
               <span class="tech-stack"> CSS </span>
               <span class="tech-stack"> Bootstrap </span>
             </div>
-
-            <button class="contact-btn work-read" style="margin: 0">
-              Go to website
-            </button>
+            <div class="text-end pt pt-3">
+              <button class="contact-btn work-read">Go to website</button>
+            </div>
           </div>
         </div>
       </div>
@@ -75,12 +70,8 @@
         <div class="col-md-6 col-sm-12">
           <div class="work-des">
             <h1>OnTracker</h1>
-            <center>
-              <div class="project-star-mobile animated zoomIn delay-2s">
-                <i class="fas fa-trophy"></i> <b>5 Million+</b> Downloads
-              </div>
-            </center>
-            <p>
+
+            <p class="info">
               On-Tracker was built with a group of 4 developers, designed to
               make tracking projects and progress around town easier. On-Tracker
               gives the user an option to create a business or become any
@@ -96,10 +87,9 @@
               <h2>Technologies Used</h2>
               <span class="tech-stack"> CSharp </span>
             </div>
-
-            <button class="contact-btn work-read" style="margin: 0">
-              Go to website
-            </button>
+            <div class="text-end pt-3 pt">
+              <button class="contact-btn work-read">Go to website</button>
+            </div>
           </div>
         </div>
       </div>
@@ -117,12 +107,8 @@
         <div class="col-md-6 col-sm-12">
           <div class="work-des">
             <h1>All-Spice</h1>
-            <center>
-              <div class="project-star-mobile animated zoomIn delay-2s">
-                <i class="fas fa-trophy"></i> <b>5 Million+</b> Downloads
-              </div>
-            </center>
-            <p>
+
+            <p class="info">
               All Spice is an application developed to allow users to create
               recipes and add ingredients and steps to allow other users to
               closely follow the recipe plan. Once logged in users are allowed
@@ -138,10 +124,9 @@
               <span class="tech-stack"> CSharp </span>
               <span class="tech-stack"> .Net Framework </span>
             </div>
-
-            <button class="contact-btn work-read" style="margin: 0">
-              Go to website
-            </button>
+            <div class="text-end pt pt-3">
+              <button class="contact-btn work-read">Go to website</button>
+            </div>
           </div>
         </div>
       </div>
@@ -153,15 +138,11 @@
             </div>
           </center>
         </div>
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-6 col-sm-12 pb-5">
           <div class="work-des">
             <h1>Tower</h1>
-            <center>
-              <div class="project-star-mobile animated zoomIn delay-2s">
-                <i class="fas fa-trophy"></i> <b>5 Million+</b> Downloads
-              </div>
-            </center>
-            <p>
+
+            <p class="info">
               Tower is an application that was developed to allows user to find
               events going on around town. This applications gives logged in
               users the ability to get a ticket for specific events, which
@@ -178,53 +159,9 @@
               <span class="tech-stack"> CSharp </span>
               <span class="tech-stack"> .Net Framework </span>
             </div>
-
-            <button class="contact-btn work-read" style="margin: 0">
-              Go to website
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-full fadeIn delay-2s">
-        <div id="contact-social" class="social-icons" style="display: inline">
-          <a target="_blank" href="mailto:ishandeveloper@outlook.com"
-            ><i class="fas fa-envelope"></i
-          ></a>
-          <a target="_blank" href="https://instagram.com/developer.ishan"
-            ><i class="fab fa-instagram"></i
-          ></a>
-          <a target="_blank" href="https://hackerrank.com/ishandeveloper"
-            ><i class="fab fa-hackerrank"></i
-          ></a>
-          <a target="_blank" href="https://github.com/ishandeveloper"
-            ><i class="fab fa-github"></i
-          ></a>
-          <a target="_blank" href="https://linkedin.com/in/ishandeveloper"
-            ><i class="fab fa-linkedin"></i
-          ></a>
-        </div>
-      </div>
-    </div>
-    <div class="menu-wrap">
-      <input type="checkbox" class="toggler" />
-      <div class="hamburger">
-        <div></div>
-      </div>
-      <div class="menu">
-        <div>
-          <div>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Uses</a></li>
-              <li>
-                <a disabled href="#" style="text-decoration: line-through"
-                  >Contact</a
-                >
-              </li>
-            </ul>
+            <div class="text-end pt-3 pt">
+              <button class="contact-btn work-read">Go to website</button>
+            </div>
           </div>
         </div>
       </div>
@@ -243,9 +180,23 @@ export default {
 
 
 <style lang="scss" scoped>
+:root {
+  --primary-color: none;
+  --overlay-color: rgba(255, 255, 255, 0.9);
+  --menu-speed: 0.75s;
+  --light-text-color: #444;
+  --black-color: #000;
+  --white-color: #fff;
+  --hero-color: black;
+}
 .img {
   height: 25rem;
-  width: 40rem;
+  width: 35rem;
+  padding-left: 70px;
+}
+
+#left-hero {
+  padding-left: 150px;
 }
 
 .img:hover {
@@ -258,19 +209,150 @@ export default {
   -moz-animation: spin 4s linear infinite;
   animation: spin 4s linear infinite;
 }
+.work-read {
+  float: none;
+}
 
 @media only screen and (max-width: 768px) {
   .hero-tag {
     margin-top: 20vh;
     font-size: 4em;
   }
+
+  .project-star {
+    display: none;
+  }
+
+  .project-star-mobile {
+    display: block;
+  }
 }
 .hero-tag {
-  margin-top: 20vh;
   text-align: left;
-  font-size: 4.5em;
+  font-size: 3.5em;
   font-weight: bold;
-  color: var(--hero-color);
+  color: black;
   font-family: "CircularStd", sans-serif;
+}
+
+.work-hero-card {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  background: #fff;
+  align-items: center;
+  padding: 0;
+  /* border-radius: 10px; */
+  padding-bottom: 15px;
+  /* border:1px solid #44444450; */
+  box-shadow: 1px 1px 20px #00000025;
+  cursor: pointer;
+  transition: all 1s;
+  height: 100%;
+}
+
+.work-hero-card:hover {
+  width: 85%;
+  box-shadow: 0px 0px 20px #88888875;
+  animation: zoom 1s;
+  /* filter: none; */
+}
+
+.work-hero {
+  /* border:2px solid #444; */
+  border-radius: 10px;
+  /* box-shadow: 0px 0px 5px #444; */
+  width: 90%;
+  transition: width 1s;
+}
+
+.work-hero:hover {
+  width: 95%;
+}
+
+.work-hero-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .work-hero {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .work-hero-card {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .info {
+    padding-right: 0em !important;
+  }
+
+  .img {
+    padding-left: 0px !important;
+  }
+
+  #left-hero {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .hero-tag {
+    text-align: center;
+  }
+}
+
+.work-des {
+  padding-top: 40px;
+}
+.work-des h1 {
+  font-weight: bold;
+}
+.work-des p {
+  text-align: justify;
+  font-weight: 100;
+}
+
+.technologies h2 {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.tech-stack {
+  cursor: pointer;
+  margin-right: 10px;
+  background: #f2f2f2;
+  padding: 2px 4px;
+  font-size: 0.8em;
+  transition: background 1s;
+}
+
+.tech-stack:hover {
+  background: beige;
+}
+
+.contact-btn {
+  padding: 5px 10px;
+  color: #444;
+  background: none;
+  border: 2px solid #444;
+  transition: all 1s;
+}
+
+.contact-btn:hover {
+  color: white;
+  background-color: #444;
+  border: 2px solid #444;
+}
+
+.info {
+  padding-right: 8em;
+}
+
+.pt {
+  padding-right: 125px;
 }
 </style>
