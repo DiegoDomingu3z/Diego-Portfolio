@@ -1,5 +1,7 @@
 <template>
-  <div>this working up</div>
+  <div class="container-fluid">
+    <Contact />
+  </div>
 </template>
 
 

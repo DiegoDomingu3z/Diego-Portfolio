@@ -1,0 +1,103 @@
+<template>
+  <div
+    class="animated fadeIn row"
+    style="width: 100vw; animation-duration: 1.5s"
+  >
+    <div class="col-md-6" id="left-hero">
+      <h1 class="hero-tag contact-hero animated fadeInLeft">
+        Let's Get In Touch.
+      </h1>
+
+      <div class="form-group animated fadeInLeft">
+        <div class="heads">
+          <label for="name"
+            >Email
+            <a target="_blank" href="mailto:diegodominguezf40@gmail.com"
+              ><i class="fas fa-envelope"></i></a
+          ></label>
+        </div>
+        <p>diegodominguezf40@gmail.com</p>
+      </div>
+      <div class="form-group animated fadeInLeft">
+        <div class="heads">
+          <label for="email">Phone</label>
+        </div>
+        <p>(208)-803-7936</p>
+      </div>
+      <div class="form-group animated fadeInLeft">
+        <div class="heads">
+          <label for="email">Linkedin</label>
+        </div>
+        <a href="https://www.linkedin.com/in/diego-dominguez-b03344233/">
+          <p>Diego-Dominguez</p>
+        </a>
+      </div>
+
+      <br />
+    </div>
+
+    <div class="col-md-6" id="hero-right">
+      <img
+        class="animated fadeInRight"
+        id="hero-img"
+        src="../assets/img/contact.svg"
+      />
+    </div>
+  </div>
+</template>
+
+
+<script>
+export default {
+  setup() {
+    return {}
+  }
+}
+</script>
+
+
+<style lang="scss" scoped>
+#left-hero {
+  padding-left: 150px;
+}
+.hero-tag {
+  text-align: left;
+  font-size: 3.5em;
+  font-weight: bold;
+  color: var(--hero-color);
+  font-family: "CircularStd", sans-serif;
+}
+
+#hero-img {
+  margin-top: 45px;
+  width: 90%;
+}
+
+.work-card-hero-img {
+  width: 100%;
+  display: block;
+  /* border:1px solid #44444450; */
+  /* border-radius: 10px; */
+  border-bottom: none;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  #hero-right {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #hero-right {
+    display: none;
+  }
+}
+
+.heads {
+  font-size: 25px;
+  border-bottom: 2px solid #444;
+}
+</style>

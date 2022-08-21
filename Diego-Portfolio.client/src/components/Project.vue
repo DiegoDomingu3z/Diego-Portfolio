@@ -6,7 +6,7 @@
     >
       <div class="col-md-12" id="left-hero">
         <h1 class="hero-tag contact-hero fadeInLeft">My Projects!</h1>
-        <p class="hero-des contact-des fadeIn delay-1s">
+        <p class="info contact-des fadeIn delay-1s">
           Take a look at some of my Full-stack & front-end applications I've
           developed!
         </p>
@@ -50,7 +50,9 @@
               <span class="tech-stack"> Bootstrap </span>
             </div>
             <div class="text-end pt pt-3">
-              <button class="contact-btn work-read">Go to website</button>
+              <a href="https://diego-keepr.herokuapp.com">
+                <button class="contact-btn work-read">Go to website</button>
+              </a>
             </div>
           </div>
         </div>
@@ -88,7 +90,9 @@
               <span class="tech-stack"> CSharp </span>
             </div>
             <div class="text-end pt-3 pt">
-              <button class="contact-btn work-read">Go to website</button>
+              <a href="https://ontracker-capstone.herokuapp.com">
+                <button class="contact-btn work-read">Go to website</button>
+              </a>
             </div>
           </div>
         </div>
@@ -125,7 +129,9 @@
               <span class="tech-stack"> .Net Framework </span>
             </div>
             <div class="text-end pt pt-3">
-              <button class="contact-btn work-read">Go to website</button>
+              <a href="https://diego-all-spice.herokuapp.com">
+                <button class="contact-btn work-read">Go to website</button>
+              </a>
             </div>
           </div>
         </div>
@@ -160,7 +166,9 @@
               <span class="tech-stack"> .Net Framework </span>
             </div>
             <div class="text-end pt-3 pt">
-              <button class="contact-btn work-read">Go to website</button>
+              <a href="https://tower-finder.herokuapp.com">
+                <button class="contact-btn work-read">Go to website</button>
+              </a>
             </div>
           </div>
         </div>
@@ -310,6 +318,7 @@ export default {
 }
 .work-des h1 {
   font-weight: bold;
+  color: #444;
 }
 .work-des p {
   text-align: justify;
@@ -350,6 +359,9 @@ export default {
 
 .info {
   padding-right: 8em;
+  font-family: "Poppins", sans-serif;
+  color: rgb(74, 74, 74);
+  letter-spacing: 1.4;
 }
 
 .pt {
