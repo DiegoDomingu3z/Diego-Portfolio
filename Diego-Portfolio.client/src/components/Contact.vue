@@ -13,23 +13,25 @@
           <label for="name"
             >Email
             <a target="_blank" href="mailto:diegodominguezf40@gmail.com"
-              ><i class="fas fa-envelope"></i></a
+              ><i
+                class="fas fa-envelope animated bounce delay-4s button"
+              ></i></a
           ></label>
         </div>
-        <p>diegodominguezf40@gmail.com</p>
+        <p class="fs-4 pt-3 p">diegodominguezf40@gmail.com</p>
       </div>
       <div class="form-group animated fadeInLeft">
         <div class="heads">
           <label for="email">Phone</label>
         </div>
-        <p>(208)-803-7936</p>
+        <p class="fs-4 pt-3 p">(208)-803-7936</p>
       </div>
       <div class="form-group animated fadeInLeft">
         <div class="heads">
           <label for="email">Linkedin</label>
         </div>
         <a href="https://www.linkedin.com/in/diego-dominguez-b03344233/">
-          <p>Diego-Dominguez</p>
+          <p class="fs-4 pt-3">Diego-Dominguez</p>
         </a>
       </div>
 
@@ -97,7 +99,15 @@ export default {
 }
 
 .heads {
-  font-size: 25px;
+  font-size: 30px;
   border-bottom: 2px solid #444;
+}
+
+.p {
+  color: #444;
+}
+
+i {
+  color: #444;
 }
 </style>
