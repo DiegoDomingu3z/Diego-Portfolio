@@ -66,7 +66,7 @@ export default {
   text-align: left;
   font-size: 3.5em;
   font-weight: bold;
-  color: var(--hero-color);
+
   font-family: "CircularStd", sans-serif;
 }
 
@@ -90,11 +90,19 @@ export default {
   #hero-right {
     display: none;
   }
+
+  #left-hero {
+    padding-left: 0;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   #hero-right {
     display: none;
+  }
+
+  #left-hero {
+    padding-left: 0;
   }
 }
 

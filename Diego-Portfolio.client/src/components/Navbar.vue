@@ -47,9 +47,11 @@
       <div>
         <div>
           <ul>
-            <li><a href="#" style="text-decoration: line-through">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="work.html">Projects</a></li>
+            <li><router-link :to="{ name: 'Home' }">Home</router-link></li>
+            <li><router-link :to="{ name: 'About' }">About</router-link></li>
+            <li>
+              <router-link :to="{ name: 'Projects' }">Projects</router-link>
+            </li>
 
             <li>
               <router-link :to="{ name: 'Contact' }"

@@ -1,9 +1,9 @@
 <template>
   <div class="row">
     <div class="col-12">
-      <h1 class="tag">Diego Dominguez</h1>
+      <h1 class="tag text-center">Summary</h1>
 
-      <p class="hero-des info me">
+      <p class="hero-des me">
         <span
           class="typer"
           id="main"
@@ -56,18 +56,32 @@
 
   <div class="row">
     <div class="col-md-12">
-      <h2 class="tag-2">Education</h2>
+      <h2 class="tag-2 pt-5">Education</h2>
     </div>
 
-    <div class="col-md-6 text-center">
+    <div class="col-md-6 text-center pt-5">
       <img
         src="../assets/img/BSU-logo.png"
         class="img-fluid education-img"
         alt=""
       />
-      <div class="col-md-6 pt-5">
-        <h3 class="pt-5">Boise State University</h3>
-      </div>
+    </div>
+    <div class="col-md-6">
+      <h3 class="text-center info">Boise State University</h3>
+      <h4 class="text-center">Bachelor of Science in Computer Science</h4>
+      <h5 class="text-center">2020 - 2025</h5>
+    </div>
+    <div class="col-md-6 text-center pt-5 pb-5">
+      <img
+        src="../assets/img/Code-works.png"
+        class="img-fluid education2-img"
+        alt=""
+      />
+    </div>
+    <div class="col-md-6">
+      <h3 class="text-center info">CodeWorks</h3>
+      <h4 class="text-center">Full-Stack Software Developer</h4>
+      <h5 class="text-center">2022</h5>
     </div>
   </div>
 </template>
@@ -87,6 +101,24 @@ p {
   color: #444;
   letter-spacing: 1.4;
   font-family: "Poppins", sans-serif;
+}
+
+.tag {
+  margin-top: 5vh;
+  text-align: left;
+  font-size: 4em;
+  font-weight: bold;
+  color: var(--hero-color);
+  font-family: "CircularStd", sans-serif;
+}
+.tag-2 {
+  margin-top: 5vh;
+  text-align: left;
+  font-size: 3em;
+  font-weight: bold;
+  color: var(--hero-color);
+  font-family: "CircularStd", sans-serif;
+  padding-left: 130px;
 }
 
 .me {
@@ -162,5 +194,13 @@ p {
 .education-img {
   height: 350px;
   width: 400px;
+}
+.education2-img {
+  height: 300px;
+  width: 350px;
+}
+
+.info {
+  padding-top: 6em;
 }
 </style>
