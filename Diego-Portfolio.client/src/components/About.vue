@@ -67,11 +67,11 @@
       />
     </div>
     <div class="col-md-6">
-      <h3 class="text-center info">Boise State University</h3>
-      <h4 class="text-center">Bachelor of Science in Computer Science</h4>
-      <h5 class="text-center">2020 - 2025</h5>
+      <h3 class="text-center info fonts">Boise State University</h3>
+      <h4 class="text-center fonts">Bachelor of Science in Computer Science</h4>
+      <h5 class="text-center fonts">2020 - 2025</h5>
     </div>
-    <div class="col-md-6 text-center pt-5 pb-5">
+    <div class="col-md-6 text-center pt-5">
       <img
         src="../assets/img/Code-works.png"
         class="img-fluid education2-img"
@@ -79,9 +79,9 @@
       />
     </div>
     <div class="col-md-6">
-      <h3 class="text-center info">CodeWorks</h3>
-      <h4 class="text-center">Full-Stack Software Developer</h4>
-      <h5 class="text-center">2022</h5>
+      <h3 class="text-center info fonts">CodeWorks</h3>
+      <h4 class="text-center fonts">Full-Stack Software Developer</h4>
+      <h5 class="text-center mb-5 fonts">2022</h5>
     </div>
   </div>
 </template>
@@ -198,9 +198,38 @@ p {
 .education2-img {
   height: 300px;
   width: 350px;
+  margin-bottom: 5em;
 }
 
 .info {
   padding-top: 6em;
+}
+
+@media (max-width: 768px) {
+  .info {
+    padding-top: 2em;
+  }
+
+  .image-1 {
+    padding-bottom: 2em;
+  }
+  .image-2 {
+    padding-bottom: 2em;
+  }
+
+  .tag-2 {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .education2-img {
+    margin-bottom: 0;
+  }
+}
+
+.fonts {
+  color: #444;
+  letter-spacing: 1.4;
+  font-family: "Poppins", sans-serif;
 }
 </style>

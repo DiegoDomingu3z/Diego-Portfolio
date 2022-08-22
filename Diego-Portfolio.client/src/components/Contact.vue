@@ -33,6 +33,11 @@
         <a href="https://www.linkedin.com/in/diego-dominguez-b03344233/">
           <p class="fs-4 pt-3">Diego-Dominguez</p>
         </a>
+        <a
+          href="https://www.linkedin.com/in/diego-domingu3z/overlay/1635499132699/single-media-viewer/"
+        >
+          <button class="download-btn text-white">Download Resume</button>
+        </a>
       </div>
 
       <br />
@@ -59,6 +64,13 @@ export default {
 
 
 <style lang="scss" scoped>
+.download-btn {
+  padding: 5px 10px;
+
+  background: #444;
+  border: 2.3px solid #444;
+  transition: all 1s;
+}
 #left-hero {
   padding-left: 150px;
 }
