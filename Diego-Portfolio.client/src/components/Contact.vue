@@ -101,10 +101,14 @@ export default {
 .heads {
   font-size: 30px;
   border-bottom: 2px solid #444;
+  letter-spacing: 1.4;
+  font-family: "Poppins", sans-serif;
 }
 
 .p {
   color: #444;
+  letter-spacing: 1.4;
+  font-family: "Poppins", sans-serif;
 }
 
 i {
