@@ -1,0 +1,1 @@
+import{_ as e,c as t,a as n,o as s,r as a}from"./index.60833b11.js";const c={name:"AboutPage"},r={class:"container-fluid"};function _(p,u,d,i,f,l){const o=a("About");return s(),t("div",r,[n(o)])}const b=e(c,[["render",_]]);export{b as default};

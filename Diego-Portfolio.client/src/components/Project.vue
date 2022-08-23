@@ -10,7 +10,6 @@
           Take a look at some of my Full-stack & front-end applications I've
           developed!
         </p>
-        <!-- <div class="feedback"><a href="https://d474b570.nolt.io/">Have any feedback or suggestion?</a></div> -->
       </div>
     </div>
     <!--Content-->
@@ -19,7 +18,7 @@
         <div class="col-md-6 col-sm-12 bounceInLeft delay-2s">
           <center>
             <div class="work-hero">
-              <img class="img img-fluid" src="../assets/img/Keepr image.jpeg" />
+              <img class="img img-fluid" src="../assets/img/Keepr-image.jpeg" />
             </div>
           </center>
         </div>
@@ -63,7 +62,7 @@
             <div class="work-hero">
               <img
                 class="img img-fluid"
-                src="../assets/img/OnTracker Img.png"
+                src="../assets/img/OnTracker-Img.png"
                 height="350"
               />
             </div>
@@ -87,7 +86,13 @@
             </p>
             <div class="technologies">
               <h2>Technologies Used</h2>
-              <span class="tech-stack"> CSharp </span>
+              <span class="tech-stack"> JavaScript</span>
+              <span class="tech-stack"> Node.js</span>
+              <span class="tech-stack"> Vue.js</span>
+              <span class="tech-stack"> HTML</span>
+              <span class="tech-stack"> CSS</span>
+              <span class="tech-stack"> Bootstrap </span>
+              <span class="tech-stack"> MongoDb</span>
             </div>
             <div class="text-end pt-3 pt">
               <a href="https://ontracker-capstone.herokuapp.com">
@@ -103,7 +108,7 @@
             <div class="work-hero">
               <img
                 class="work-hero-img img-fluid img"
-                src="../assets/img/All Spice image.jpeg"
+                src="../assets/img/All-Spice-image.jpeg"
               />
             </div>
           </center>
@@ -126,7 +131,13 @@
             <div class="technologies">
               <h2>Technologies Used</h2>
               <span class="tech-stack"> CSharp </span>
+              <span class="tech-stack"> JavaScript </span>
               <span class="tech-stack"> .Net Framework </span>
+              <span class="tech-stack"> Vue.js </span>
+              <span class="tech-stack"> MySQL </span>
+              <span class="tech-stack"> HTML </span>
+              <span class="tech-stack"> CSS </span>
+              <span class="tech-stack"> Bootstrap </span>
             </div>
             <div class="text-end pt pt-3">
               <a href="https://diego-all-spice.herokuapp.com">
@@ -140,7 +151,7 @@
         <div class="col-md-6 col-sm-12 bounceInLeft delay-2s">
           <center>
             <div class="work-hero">
-              <img class="img-fluid img" src="../assets/img/event search.png" />
+              <img class="img-fluid img" src="../assets/img/event-search.png" />
             </div>
           </center>
         </div>
@@ -162,8 +173,13 @@
             </p>
             <div class="technologies">
               <h2>Technologies Used</h2>
-              <span class="tech-stack"> CSharp </span>
-              <span class="tech-stack"> .Net Framework </span>
+              <span class="tech-stack"> JavaScript</span>
+              <span class="tech-stack"> Node.js</span>
+              <span class="tech-stack"> Vue.js</span>
+              <span class="tech-stack"> HTML</span>
+              <span class="tech-stack"> CSS</span>
+              <span class="tech-stack"> Bootstrap </span>
+              <span class="tech-stack"> MongoDb</span>
             </div>
             <div class="text-end pt-3 pt">
               <a href="https://tower-finder.herokuapp.com">

@@ -1,0 +1,1 @@
+import{_ as t,d as o,c,a,o as n,A as s,r as _}from"./index.60833b11.js";const r={name:"Account",setup(){return{account:o(()=>s.account)}}},p={class:"container-fluid"};function d(u,i,l,m,f,b){const e=_("Project");return n(),c("div",p,[a(e)])}const v=t(r,[["render",d],["__scopeId","data-v-84eb3b3b"]]);export{v as default};
