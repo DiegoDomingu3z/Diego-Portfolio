@@ -8,7 +8,7 @@
         <span
           class="typer"
           id="main"
-          data-words="Hey there 👋, I'm Diego!, Welcome to my page!, Want to learn more?, Feel free to contact me!, "
+          data-words="Hey there 👋, I'm Diego!, Welcome to my page! Feel free to contact me!, "
           data-delay="100"
           data-deleteDelay="1000"
           data-loop="20"
@@ -57,14 +57,7 @@ export default {
   }
 }
 </script>
-<!-- 
-<script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js">
-export default {
-  setup() {
-    return {}
-  }
-}
-</script> -->
+
 
 
 <style lang="scss" scoped>

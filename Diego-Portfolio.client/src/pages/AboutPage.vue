@@ -1,6 +1,6 @@
 <template>
-  <div class="container-fluid">
-    <About />
+  <div class="container">
+    <AboutMe />
   </div>
 </template>
 

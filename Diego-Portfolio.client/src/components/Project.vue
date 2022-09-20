@@ -140,6 +140,7 @@
               <span class="tech-stack"> Bootstrap </span>
             </div>
             <div class="text-end pt pt-3">
+              <i class="fs-2 fab fa-github"></i>
               <a href="https://diego-all-spice.herokuapp.com">
                 <button class="contact-btn work-read">Go to website</button>
               </a>
@@ -212,6 +213,11 @@ export default {
   --black-color: #000;
   --white-color: #fff;
   --hero-color: black;
+}
+
+i {
+  /* font-weight: 100; */
+  padding: 5px 10px;
 }
 .img {
   height: 25rem;
