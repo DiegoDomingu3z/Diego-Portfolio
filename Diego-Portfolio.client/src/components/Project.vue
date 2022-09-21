@@ -17,8 +17,65 @@
       <div class="row pt-5" id="work-row">
         <div class="col-md-6 col-sm-12 bounceInLeft delay-2s">
           <center>
-            <div class="work-hero">
-              <img class="img img-fluid" src="../assets/img/Keepr-image.jpeg" />
+            <div
+              id="carouselExampleInterval"
+              class="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img
+                    src="../assets/img/Keepr-home.png"
+                    class="d-block img user-picture"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img
+                    src="../assets/img/Keepr-create.png"
+                    class="d-block img user-picture"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img
+                    src="../assets/img/Keepr-Modal.png"
+                    class="d-block img user-picture"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../assets/img/Keepr-profile.png"
+                    class="d-block img user-picture"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </center>
         </div>
@@ -48,10 +105,18 @@
               <span class="tech-stack"> CSS </span>
               <span class="tech-stack"> Bootstrap </span>
             </div>
-            <div class="text-end pt pt-3">
-              <a href="https://diego-keepr.herokuapp.com">
-                <button class="contact-btn work-read">Go to website</button>
+            <div class="d-flex justify-content-between mt-4">
+              <a href="https://github.com/DiegoDomingu3z/Keepr">
+                <i
+                  title="Source Code"
+                  class="fs-2 fab fa-github source-code"
+                ></i>
               </a>
+              <span class="pt">
+                <a href="https://diego-keepr.herokuapp.com">
+                  <button class="contact-btn work-read">Go to website</button>
+                </a>
+              </span>
             </div>
           </div>
         </div>
@@ -59,12 +124,65 @@
       <div class="row pt-5" id="work-row">
         <div class="col-md-6 col-sm-12 bounceInLeft delay-2s">
           <center>
-            <div class="work-hero">
-              <img
-                class="img img-fluid"
-                src="../assets/img/OnTracker-Img.png"
-                height="350"
-              />
+            <div
+              id="carouselExampleInterval"
+              class="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img
+                    src="../assets/img/OnTracker-home.png"
+                    class="d-block img user-picture"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img
+                    src="../assets/img/OnTracker-bus.png"
+                    class="d-block img user-picture"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img
+                    src="../assets/img/OnTracker-Project.png"
+                    class="d-block img user-picture"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../assets/img/OnTracker-create.png"
+                    class="d-block img user-picture"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </center>
         </div>
@@ -94,10 +212,18 @@
               <span class="tech-stack"> Bootstrap </span>
               <span class="tech-stack"> MongoDb</span>
             </div>
-            <div class="text-end pt-3 pt">
-              <a href="https://ontracker-capstone.herokuapp.com">
-                <button class="contact-btn work-read">Go to website</button>
+            <div class="d-flex justify-content-between mt-5">
+              <a href="https://github.com/DiegoDomingu3z/on-tracker">
+                <i
+                  title="Source Code"
+                  class="fs-2 fab fa-github source-code"
+                ></i>
               </a>
+              <span class="pt">
+                <a href="https://ontracker-capstone.herokuapp.com">
+                  <button class="contact-btn work-read">Go to website</button>
+                </a>
+              </span>
             </div>
           </div>
         </div>
@@ -139,11 +265,18 @@
               <span class="tech-stack"> CSS </span>
               <span class="tech-stack"> Bootstrap </span>
             </div>
-            <div class="text-end pt pt-3">
-              <i class="fs-2 fab fa-github"></i>
-              <a href="https://diego-all-spice.herokuapp.com">
-                <button class="contact-btn work-read">Go to website</button>
+            <div class="d-flex justify-content-between mt-5">
+              <a href="https://github.com/DiegoDomingu3z/All_Spice">
+                <i
+                  title="Source Code"
+                  class="fs-2 fab fa-github source-code"
+                ></i>
               </a>
+              <span class="pt">
+                <a href="https://diego-all-spice.herokuapp.com">
+                  <button class="contact-btn work-read">Go to website</button>
+                </a>
+              </span>
             </div>
           </div>
         </div>
@@ -182,10 +315,19 @@
               <span class="tech-stack"> Bootstrap </span>
               <span class="tech-stack"> MongoDb</span>
             </div>
-            <div class="text-end pt-3 pt">
-              <a href="https://tower-finder.herokuapp.com">
-                <button class="contact-btn work-read">Go to website</button>
+
+            <div class="d-flex justify-content-between mt-5">
+              <a href="https://github.com/DiegoDomingu3z/Tower">
+                <i
+                  title="Source Code"
+                  class="fs-2 fab fa-github source-code"
+                ></i>
               </a>
+              <span class="pt">
+                <a href="https://tower-finder.herokuapp.com">
+                  <button class="contact-btn work-read">Go to website</button>
+                </a>
+              </span>
             </div>
           </div>
         </div>
@@ -196,9 +338,15 @@
 
 
 <script>
+import { onMounted } from '@vue/runtime-core'
 export default {
   setup() {
-    return {}
+
+    return {
+
+
+
+    }
   }
 }
 </script>
@@ -220,18 +368,12 @@ i {
   padding: 5px 10px;
 }
 .img {
-  height: 30rem;
-  width: 35rem;
-  padding-left: 70px;
+  width: 100%;
+  padding-left: 50px;
 }
 
 #left-hero {
   padding-left: 150px;
-}
-
-.img:hover {
-  transform: scale(1.03);
-  transition: all 1s;
 }
 
 .image {
@@ -333,11 +475,12 @@ i {
   .hero-tag {
     text-align: center;
   }
+
+  .source-code {
+    display: none;
+  }
 }
 
-.work-des {
-  padding-top: 40px;
-}
 .work-des h1 {
   font-weight: bold;
   color: #444;

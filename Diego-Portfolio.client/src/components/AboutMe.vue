@@ -1,10 +1,14 @@
 <template>
   <div class="row about-section">
-    <div class="col-md-6">
-      <img class="img-fluid pic" src="../assets/img/Coding-img.webp" alt="" />
+    <div class="col-md-6 text-center">
+      <img
+        class="img-fluid pic rounded"
+        src="../assets/img/E8671E67-FD29-460F-BFCB-C9B296DC2146_1_105_c.jpeg"
+        alt=""
+      />
     </div>
     <div class="col-md-6">
-      <h1 class="about">About Me</h1>
+      <h1 class="header">About Me</h1>
       <div>
         <p>
           Hello! My name Diego Dominguez, I am a proud Mexican-American/Chicano,
@@ -32,7 +36,7 @@
   </div>
   <div class="row bio-section mt-5">
     <div class="col-md-6">
-      <h2>Journey</h2>
+      <h1 class="header">Journey</h1>
       <div>
         <p>
           I started attending <b>Boise State University</b> in 2020, I
@@ -69,6 +73,49 @@
       <img class="img-fluid car" src="../assets/img/loading-img.webp" alt="" />
     </div>
   </div>
+  <div class="row education-section">
+    <h1 class="header">Education</h1>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card__side card__side--front-1 rounded">
+          <div class="card__title card__title--1 text-center">
+            <img
+              class="img-fluid bsu"
+              src="../assets/img/BSU-logo.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="card__side card__side--back">
+          <div class="text-center mt-5">
+            <p class="text">Boise State University</p>
+            <p class="text-2">Bachelors of Science in Computer Science</p>
+            <p class="text-3">2020-2025</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card__side card__side--front-1">
+          <div class="card__title card__title--1 text-center">
+            <img
+              class="img-fluid code-works"
+              src="../assets/img/Code-works.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="card__side card__side--back">
+          <div class="text-center mt-5">
+            <p class="text">CodeWorks</p>
+            <p class="text-2">Full-Stack Software Developer Certificate</p>
+            <p class="text-3">2022</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 
@@ -82,6 +129,66 @@ export default {
 
 
 <style lang="scss" scoped>
+.card {
+  -webkit-perspective: 150rem;
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  height: 25rem;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  cursor: pointer;
+}
+
+.card__side {
+  height: 25rem;
+  -webkit-transition: all 0.8s ease;
+  transition: all 1.5s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 3px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+
+.text {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 50px;
+}
+.text-2 {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 30px;
+}
+.text-3 {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 25px;
+}
+
+.header {
+  font-family: "CircularStd", sans-serif;
+  font-weight: bold;
+}
+
+.card__side--back {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.card:hover .card__side--front-1 {
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.card:hover .card__side--back {
+  -webkit-transform: rotateY(0);
+  transform: rotateY(0);
+}
+
 h6 {
   padding-right: 9em;
   font-size: 15px;
@@ -93,11 +200,30 @@ p {
 
 .bio-section {
   margin-bottom: 5em;
-  height: 80vh;
+  height: 90vh;
 }
 
 .about-section {
   height: 80vh;
+  margin-top: 3em;
+}
+
+.education-section {
+  height: 85vh;
+  margin-top: 3em;
+}
+
+.pic {
+  height: 65%;
+}
+
+.bsu {
+  width: 50%;
+  margin-top: 1.5em;
+}
+
+.code-works {
+  width: 45%;
   margin-top: 3em;
 }
 
@@ -130,6 +256,7 @@ p {
   .pic {
     padding-top: 1em;
     padding-bottom: 2em;
+    height: 85%;
   }
 }
 </style>
