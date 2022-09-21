@@ -1,0 +1,1 @@
+import{_ as o,c as t,a as n,o as s,r as a}from"./index.fea167fe.js";const c={name:"AboutPage"},r={class:"container"};function _(p,u,d,i,m,f){const e=a("AboutMe");return s(),t("div",r,[n(e)])}const b=o(c,[["render",_]]);export{b as default};

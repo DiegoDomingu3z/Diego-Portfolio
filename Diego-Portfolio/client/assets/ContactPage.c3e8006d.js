@@ -1,0 +1,1 @@
+import{_ as e,c as o,a as n,o as c,r as s}from"./index.fea167fe.js";const a={setup(){return{}}},r={class:"container-fluid"};function _(p,d,i,f,l,u){const t=s("Contact");return c(),o("div",r,[n(t)])}const C=e(a,[["render",_]]);export{C as default};
