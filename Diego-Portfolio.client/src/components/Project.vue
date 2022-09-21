@@ -22,28 +22,28 @@
               data-bs-ride="carousel"
             >
               <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="3000">
+                <div class="carousel-item active" data-bs-interval="2500">
                   <img
                     src="../assets/img/Keepr-home.png"
                     class="d-block img user-picture"
                     alt="..."
                   />
                 </div>
-                <div class="carousel-item active" data-bs-interval="3000">
+                <div class="carousel-item" data-bs-interval="2500">
                   <img
                     src="../assets/img/Keepr-create.png"
                     class="d-block img user-picture"
                     alt="..."
                   />
                 </div>
-                <div class="carousel-item active" data-bs-interval="3000">
+                <div class="carousel-item" data-bs-interval="2500">
                   <img
                     src="../assets/img/Keepr-Modal.png"
                     class="d-block img user-picture"
                     alt="..."
                   />
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="2500">
                   <img
                     src="../assets/img/Keepr-profile.png"
                     class="d-block img user-picture"
@@ -129,28 +129,28 @@
               data-bs-ride="carousel"
             >
               <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="3000">
+                <div class="carousel-item active" data-bs-interval="2500">
                   <img
                     src="../assets/img/OnTracker-home.png"
                     class="d-block img user-picture"
                     alt="..."
                   />
                 </div>
-                <div class="carousel-item active" data-bs-interval="3000">
+                <div class="carousel-item" data-bs-interval="2500">
                   <img
                     src="../assets/img/OnTracker-bus.png"
                     class="d-block img user-picture"
                     alt="..."
                   />
                 </div>
-                <div class="carousel-item active" data-bs-interval="3000">
+                <div class="carousel-item" data-bs-interval="2500">
                   <img
                     src="../assets/img/OnTracker-Project.png"
                     class="d-block img user-picture"
                     alt="..."
                   />
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="2500">
                   <img
                     src="../assets/img/OnTracker-create.png"
                     class="d-block img user-picture"
@@ -237,21 +237,21 @@
               data-bs-ride="carousel"
             >
               <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="3000">
+                <div class="carousel-item active" data-bs-interval="2500">
                   <img
                     src="../assets/img/All-Spice-home.png"
                     class="d-block img user-picture"
                     alt="..."
                   />
                 </div>
-                <div class="carousel-item active" data-bs-interval="3000">
+                <div class="carousel-item" data-bs-interval="2500">
                   <img
                     src="../assets/img/All-spice-info.png"
                     class="d-block img user-picture"
                     alt="..."
                   />
                 </div>
-                <div class="carousel-item active" data-bs-interval="3000">
+                <div class="carousel-item" data-bs-interval="2500">
                   <img
                     src="../assets/img/All-spice-create.png"
                     class="d-block img user-picture"
@@ -294,9 +294,9 @@
               All Spice is an application developed to allow users to create
               recipes and add ingredients and steps to allow other users to
               closely follow the recipe plan. Once logged in users are allowed
-              to add their own recipes for other users to see. All Spices allows
+              to add their own recipes for other users to see. All Spice allows
               users to favorite recipes and create a collection of all recipes
-              they have favorited. MySQL was used as the database for this
+              they have favored. MySQL was used as the database for this
               application and the backend being built with C#. The front end was
               created and designed using JavaScript Vue.js, HTML, CSS and
               Bootstrap.
@@ -331,8 +331,65 @@
       <div class="row pt-5">
         <div class="col-md-6 col-sm-12 bounceInLeft delay-2s">
           <center>
-            <div class="work-hero mb-5">
-              <img class="img-fluid img" src="../assets/img/event-search.png" />
+            <div
+              id="tower"
+              class="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2500">
+                  <img
+                    src="../assets/img/Tower-home.png"
+                    class="d-block img user-picture"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                  <img
+                    src="../assets/img/Tower-page.png"
+                    class="d-block img user-picture"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                  <img
+                    src="../assets/img/Tower-comments.png"
+                    class="d-block img user-picture"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                  <img
+                    src="../assets/img/Tower-profile.png"
+                    class="d-block img user-picture"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#tower"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="mdi mdi-arrow-left-drop-circle carousel-left-button"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#tower"
+                data-bs-slide="next"
+              >
+                <span
+                  class="mdi mdi-arrow-right-drop-circle carousel-right-button"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </center>
         </div>
@@ -532,6 +589,7 @@ i {
 
   .img {
     padding-left: 0px !important;
+    margin-bottom: 4em;
   }
 
   #left-hero {

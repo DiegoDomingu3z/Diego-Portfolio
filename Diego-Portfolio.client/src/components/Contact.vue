@@ -34,7 +34,7 @@
           <p class="fs-4 pt-3">Diego-Dominguez</p>
         </a>
         <a
-          href="https://www.linkedin.com/in/diego-domingu3z/overlay/1635499132699/single-media-viewer/"
+          href="https://www.linkedin.com/in/diego-domingu3z/overlay/1635500131704/single-media-viewer/"
         >
           <button class="download-btn text-white">Download Resume</button>
         </a>
