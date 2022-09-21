@@ -14,18 +14,17 @@
       <div class="nav-items">
         <ul>
           <li>
-            <router-link :to="{ name: 'About' }">
-              <span class="text-grey">About</span>
-            </router-link>
-          </li>
-          <li>
             <span>
               <router-link :to="{ name: 'Projects' }"
                 ><span class="text-grey">Projects</span></router-link
               >
             </span>
           </li>
-
+          <li>
+            <router-link :to="{ name: 'About' }">
+              <span class="text-grey">About</span>
+            </router-link>
+          </li>
           <li>
             <span>
               <router-link :to="{ name: 'Contact' }"

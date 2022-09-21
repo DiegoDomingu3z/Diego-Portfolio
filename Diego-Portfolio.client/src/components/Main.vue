@@ -8,7 +8,7 @@
         <span
           class="typer"
           id="main"
-          data-words="Hey there 👋, I'm Diego!, Welcome to my page! Feel free to contact me!, "
+          data-words="Hey there 👋, I'm Diego!, Welcome to my page!, Feel free to contact me!, "
           data-delay="100"
           data-deleteDelay="1000"
           data-loop="20"
@@ -18,9 +18,8 @@
       </h1>
 
       <p class="hero-des fs-5">
-        I am a <b>Full-Stack Software Developer,</b> I create elegant and
-        functional <b>Websites.</b>
-        Feel free to contact me below!
+        I am a
+        <b>Full-Stack Software Developer, ready to take on any challenge!</b>
       </p>
 
       <button class="contact-btn animated bounce delay-4s button">

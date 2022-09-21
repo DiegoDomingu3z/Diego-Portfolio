@@ -151,7 +151,7 @@
       <div class="row pt-5" id="work-row">
         <div class="col-md-6 col-sm-12 bounceInLeft delay-2s">
           <center>
-            <div class="work-hero">
+            <div class="work-hero mb-5">
               <img class="img-fluid img" src="../assets/img/event-search.png" />
             </div>
           </center>
@@ -220,7 +220,7 @@ i {
   padding: 5px 10px;
 }
 .img {
-  height: 25rem;
+  height: 30rem;
   width: 35rem;
   padding-left: 70px;
 }
@@ -245,7 +245,7 @@ i {
 
 @media only screen and (max-width: 768px) {
   .hero-tag {
-    margin-top: 20vh;
+    margin-top: 10vh;
     font-size: 4em;
   }
 
