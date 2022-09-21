@@ -12,13 +12,12 @@
         </p>
       </div>
     </div>
-    <!--Content-->
     <div class="animated bounceInUp delay-1s">
-      <div class="row pt-5" id="work-row">
+      <div class="row pt-5">
         <div class="col-md-6 col-sm-12 bounceInLeft delay-2s">
           <center>
             <div
-              id="carouselExampleInterval"
+              id="keepR"
               class="carousel slide carousel-fade"
               data-bs-ride="carousel"
             >
@@ -55,11 +54,11 @@
               <button
                 class="carousel-control-prev"
                 type="button"
-                data-bs-target="#carouselExampleInterval"
+                data-bs-target="#keepR"
                 data-bs-slide="prev"
               >
                 <span
-                  class="carousel-control-prev-icon"
+                  class="mdi mdi-arrow-left-drop-circle carousel-left-button"
                   aria-hidden="true"
                 ></span>
                 <span class="visually-hidden">Previous</span>
@@ -67,11 +66,11 @@
               <button
                 class="carousel-control-next"
                 type="button"
-                data-bs-target="#carouselExampleInterval"
+                data-bs-target="#keepR"
                 data-bs-slide="next"
               >
                 <span
-                  class="carousel-control-next-icon"
+                  class="mdi mdi-arrow-right-drop-circle carousel-right-button"
                   aria-hidden="true"
                 ></span>
                 <span class="visually-hidden">Next</span>
@@ -121,11 +120,11 @@
           </div>
         </div>
       </div>
-      <div class="row pt-5" id="work-row">
+      <div class="row pt-5">
         <div class="col-md-6 col-sm-12 bounceInLeft delay-2s">
           <center>
             <div
-              id="carouselExampleInterval"
+              id="OnTracker-carousel"
               class="carousel slide carousel-fade"
               data-bs-ride="carousel"
             >
@@ -162,23 +161,24 @@
               <button
                 class="carousel-control-prev"
                 type="button"
-                data-bs-target="#carouselExampleInterval"
+                data-bs-target="#OnTracker-carousel"
                 data-bs-slide="prev"
               >
                 <span
-                  class="carousel-control-prev-icon"
+                  class="mdi mdi-arrow-left-drop-circle carousel-left-button"
                   aria-hidden="true"
                 ></span>
                 <span class="visually-hidden">Previous</span>
               </button>
+
               <button
                 class="carousel-control-next"
                 type="button"
-                data-bs-target="#carouselExampleInterval"
+                data-bs-target="#OnTracker-carousel"
                 data-bs-slide="next"
               >
                 <span
-                  class="carousel-control-next-icon"
+                  class="mdi mdi-arrow-right-drop-circle carousel-right-button"
                   aria-hidden="true"
                 ></span>
                 <span class="visually-hidden">Next</span>
@@ -228,14 +228,61 @@
           </div>
         </div>
       </div>
-      <div class="row pt-5" id="work-row">
+      <div class="row pt-5">
         <div class="col-md-6 col-sm-12 bounceInLeft delay-2s">
           <center>
-            <div class="work-hero">
-              <img
-                class="work-hero-img img-fluid img"
-                src="../assets/img/All-Spice-image.jpeg"
-              />
+            <div
+              id="allSpice"
+              class="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img
+                    src="../assets/img/All-Spice-home.png"
+                    class="d-block img user-picture"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img
+                    src="../assets/img/All-spice-info.png"
+                    class="d-block img user-picture"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img
+                    src="../assets/img/All-spice-create.png"
+                    class="d-block img user-picture"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#allSpice"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="mdi mdi-arrow-left-drop-circle carousel-left-button"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#allSpice"
+                data-bs-slide="next"
+              >
+                <span
+                  class="mdi mdi-arrow-right-drop-circle carousel-right-button"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </center>
         </div>
@@ -281,7 +328,7 @@
           </div>
         </div>
       </div>
-      <div class="row pt-5" id="work-row">
+      <div class="row pt-5">
         <div class="col-md-6 col-sm-12 bounceInLeft delay-2s">
           <center>
             <div class="work-hero mb-5">
@@ -363,6 +410,17 @@ export default {
   --hero-color: black;
 }
 
+.carousel-right-button {
+  color: rgb(210, 210, 210) !important;
+  font-size: 50px;
+  padding-left: 1.2em;
+}
+.carousel-left-button {
+  color: rgb(210, 210, 210) !important;
+  font-size: 50px;
+  padding-left: 0.8em;
+}
+
 i {
   /* font-weight: 100; */
   padding: 5px 10px;
@@ -389,6 +447,15 @@ i {
   .hero-tag {
     margin-top: 10vh;
     font-size: 4em;
+  }
+
+  .carousel-left-button {
+    padding-left: 0;
+    font-size: 20px;
+  }
+  .carousel-right-button {
+    padding-left: 0;
+    font-size: 20px;
   }
 
   .project-star {
